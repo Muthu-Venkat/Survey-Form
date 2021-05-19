@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<Title>Survey-Form</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+<link rel="stylesheet" href="survey.css">
+<body>
+<form>
+<table>
+
+<tr> <td id="mnm">
+    <label for="Name" class="Name"> <b> Name </b> <span class="star"> * </span> </label> </td>
+</tr>
+
+<tr >
+    <td id="pop">
+    <input type="Textbox" id="Textbox1" Require maxlength="20"><br>
+    <label for="" class="idd">First</label> </td>
+
+    <td id="pop">
+    <input type="Textbox" id="Textbox" Require maxlength="20"><br>
+    <label for=""  id="text" class="idd">Last</label> </td>
+</tr>
+
+<tr>
+    <td id="mnm">
+    <label for="Email" > <b> Email </b> <span class="star"> * </span> </label></td> </tr>
+
+<tr>
+    <td id="pop">
+    <input type="Passward" id="Passward" Required maxlength="30"> </td> </tr>
+</tr>
+
+<tr>
+    <td id="mnm">
+    <label for="exp" > <b> Your Experience </b> <span class="star"> * </span> </label></td></tr>
+
+    <tr>
+        <td class="lol">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </td>
+    </tr>
+
+<tr>
+    <td colspan="2" class="uuu">
+    <label for="exp"> Overall, how would you rate your experience with us? </label></td>
+</tr>
+
+<tr>
+    <td id="mnm">
+    <label for="satisfy"> <h4> How satisfied are you with  <span class="star"> * </span> </h4></label></td>
+</tr>
+
+<tr>
+    <table style="width: 75%;" id="eee">
+    <tr>
+    <th id="ooo"></th>
+    <td style="text-align:center"> Very Unsatisfied</td>
+    <td style="text-align:center">Unsatisfied</td>
+    <td style="text-align:center">Neutral</td>
+    <td style="text-align:center">Very Satisfied</td>
+    <td style="text-align:center">Satisfied</td>
+    </tr> 
+  
+    <tr>
+    <td class="bt"> Purchase</td>
+    <td class="rs"><input type="radio" id="yesradio" name="Yesradio"></td>
+    <td class="rs"><input type="radio" id="yesradio" name="Yesradio"></td>
+    <td class="rs"><input type="radio" id="yesradio" name="Yesradio"></td>
+    <td class="rs"><input type="radio" id="yesradio" name="Yesradio"></td>
+    <td class="rs"><input type="radio" id="yesradio" name="Yesradio"></td>
+    </tr>
+
+
+    <tr>
+    <td class="bK"> Service</td>
+    <td class="rr"><input type="radio" id="yes1radio" name="yes1radio"></td>
+    <td class="rr"><input type="radio" id="yes1radio" name="yes1radio"></td>
+    <td class="rr"><input type="radio" id="yes1radio" name="yes1radio"></td>
+    <td class="rr"><input type="radio" id="yes1radio" name="yes1radio"></td>
+    <td class="rr"><input type="radio" id="yes1radio" name="yes1radio"></td>
+    </tr> 
+
+    <tr>
+    <td class="bt"> Company Overall</td>
+    <td class="rs"><input type="radio" id="yes2radio" name="yes2radio"></td>
+    <td class="rs"><input type="radio" id="yes2radio" name="yes2radio"></td>
+    <td class="rs"><input type="radio" id="yes2radio" name="yes2radio"></td>
+    <td class="rs"><input type="radio" id="yes2radio" name="yes2radio"></td>
+    <td class="rs"><input type="radio" id="yes2radio" name="yes2radio"></td>
+    </tr>
+
+    <tr>
+    <td id="mnm">
+        <label for="like"> <p> <b>How likely are you to  <span class="star"> * </span> </p></label></td>
+    </tr>
+
+    <tr>
+    <td id="ooo"></td>
+    <td style="text-align:center"> Very Unlikely</td>
+    <td style="text-align:center">Unlikely</td>
+    <td style="text-align:center" >Neutral</td>
+    <td style="text-align:center">Very Likely</td>
+    <td style="text-align:center">Likely</td>
+    </tr> 
+  
+    <tr>
+    <td class="bt"> Buy from us again</td>
+    <td class="rs"><input type="radio" id="noooradio" name="noooradio"></td>
+    <td class="rs"><input type="radio" id="noooradio" name="noooradio"></td>
+    <td class="rs"><input type="radio" id="noooradio" name="noooradio"></td>
+    <td class="rs"><input type="radio" id="noooradio" name="noooradio"></td>
+    <td class="rs"><input type="radio" id="noooradio" name="noooradio"></td>
+    </tr>
+
+    <tr>
+    <td class="bK"> Recommend our <br> product to others</td>
+    <td class="rr"><input type="radio" id="noradio" name="noradio"></td>
+    <td class="rr"><input type="radio" id="noradio" name="noradio"></td>
+    <td class="rr"><input type="radio" id="noradio" name="noradio"></td>
+    <td class="rr"><input type="radio" id="noradio" name="noradio"></td>
+    <td class="rr"><input type="radio" id="noradio" name="noradio"></td>
+    </tr> 
+
+    <tr>
+    <td class="bt"> Recommend our <br> company to others</td>
+    <td class="rs"><input type="radio" id="nooradio" name="nooradio"></td>
+    <td class="rs"><input type="radio" id="nooradio" name="nooradio"></td>
+    <td class="rs"><input type="radio" id="nooradio" name="nooradio"></td>
+    <td class="rs"><input type="radio" id="nooradio" name="nooradio"></td>
+    <td class="rs"><input type="radio" id="nooradio" name="nooradio"></td>
+    </tr>
+
+</tr>
+</tabel>
+
+
+<tr>
+    <table>
+        <tr>
+    <td colspan="6" id="mnm">
+<label for="like"> <h4> Additional comments or suggestions </h4></label>
+<textarea cols="153" rows="15"></textarea></td></tr>
+
+<tr>
+
+    <td>
+        <button class="uhu"> Submit</button>
+    </td>
+</tr>
+
+
+</table>
+</form>
+
+
+</body>
+</html>
